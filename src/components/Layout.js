@@ -26,7 +26,7 @@ class ShowPhoto extends Component {
   // render photo
   render () {
     const { pictureUrl } = this.state
-    let backgroundPhoto = <img src={pictureUrl} alt='random'/>
+    let backgroundPhoto = <img src={pictureUrl} alt='random' style={ {alginSelf: 'center', width: '100%', zIndex: '-1'} }/>
 
     return (
       <div id="background-photo">

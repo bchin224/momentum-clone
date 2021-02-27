@@ -74,7 +74,7 @@ class Info extends Component {
     }
 
     return (
-      <div>
+      <div className="weather">
         <div className="weather-info">
           {weatherDisplay}
         </div>

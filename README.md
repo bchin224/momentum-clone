@@ -10,6 +10,9 @@ This is a clone of the Google Chrome extension "Momentum" that generates a new p
 ## Planning Story
 - Set up React app template
 - Import random photo for background
+- Make API call for the weather
+- Get time from moment.js library
+- Make API call for a random quote
 
 ## User Stories
 - As a user, I want to be able to input my location.
@@ -24,3 +27,5 @@ This is a clone of the Google Chrome extension "Momentum" that generates a new p
 - Axios
 
 ## Unsolved Problems
+- CORS error when trying to include a random quote using the forismatic api
+-
