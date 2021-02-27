@@ -5,8 +5,6 @@ import axios from 'axios'
 // api url + random photo url GET extension + client id
 const apiUrl = 'https://api.unsplash.com/photos/random/?client_id=rhy5w5kA-6vOu0XFIEHga_1ceg39oh5ozZ8sIdEys04'
 
-// REMOVE SPACE AFTER RANDOM TO MAKE PHOTO ACTUALLY SHOW UP
-
 class ShowPhoto extends Component {
   constructor () {
     super()
