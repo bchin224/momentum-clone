@@ -13,11 +13,25 @@ code {
     monospace;
 }
 
+#time {
+  font-size: 10vh;
+  margin: -4vh;
+}
+
+#timeofday {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
 #weather-input {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#city {
+  margin: -3vh;
 }
 
 .weather-info {
@@ -31,4 +45,5 @@ code {
 
 #weather-conditions {
   font-size: 80%;
+  margin: 4vh;
 }
