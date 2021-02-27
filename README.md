@@ -1,5 +1,5 @@
 # Momentum Chrome Extension Clone
-This is a clone of the Google Chrome extension "Momentum" that generates a new photo and quote with every page visit as well as displays the time weather of a given zipcode. It also greets the user, as every home app should!
+This is a clone of the Google Chrome extension [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) that generates a new photo and quote with every page visit as well as displays the time weather of a given zipcode. It also greets the user, as every home app should!
 
 ## Additional Links
 - [Unsplash API](https://unsplash.com/)
@@ -13,6 +13,7 @@ This is a clone of the Google Chrome extension "Momentum" that generates a new p
 - Make API call for the weather
 - Get time from moment.js library
 - Make API call for a random quote
+- Add the Links and Todo links (not necessarily functional)
 
 ## User Stories
 - As a user, I want to be able to input my location.
