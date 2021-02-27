@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #999999;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#weather-input {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weather-info {
+  position: absolute;
+  /* text-align: center; */
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  margin: 5px;
+}
+
+#weather-conditions {
+  font-size: 80%;
 }
